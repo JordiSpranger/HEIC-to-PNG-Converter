@@ -13,7 +13,7 @@ pip install pillow pillow-heif
 
 1. **Clone the repository**:
 ```
-git clone [https://github.com/yourusername/heic-to-png-converter.git](https://github.com/JordiSpranger/HEIC-to-PNG-Converter.git)
+git clone https://github.com/JordiSpranger/HEIC-to-PNG-Converter.git
 cd heic-to-png-converter
 ```
 
