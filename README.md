@@ -32,11 +32,15 @@ The script will convert all HEIC images in the specified folder to PNG format an
 
 The script `convert_heic_2_png.py` performs the following steps:
 
-1. **Imports necessary libraries**.
-2. **Registers HEIF opener** to handle HEIC files.
-3. **Defines a function to convert a single HEIC file to PNG**.
-4. **Defines a function to convert all HEIC files in the specified folder**.
-5. **Prints the conversion status for each file**.
+	1.	Imports necessary libraries.
+	2.	Creates output folder if it doesn’t exist.
+	3.	Iterates through all files in the input folder.
+	4.	Checks if the file is a HEIC image.
+	5.	Generates the output PNG file path.
+	6.	Opens the HEIC file using pillow_heif.
+	7.	Converts HEIC data to a PIL Image.
+	8.	Saves the PIL Image as a PNG file.
+	9.	Prints the conversion status for each file.
 
 ## License
 
