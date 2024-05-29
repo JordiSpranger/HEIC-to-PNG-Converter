@@ -1,11 +1,6 @@
 # HEIC-to-PNG-Converter
 Convert HEIC images to PNG format using this Python script. Leveraging the pillow and pillow-heif libraries, it processes multiple images concurrently. Simply place your HEIC files in a folder, run the script, and get PNGs in a new png subfolder. Perfect for batch processing on any system with Python.
 
-
-# HEIC to PNG Converter
-
-This repository contains a Python script to convert HEIC images to PNG format. The script uses the `pillow` and `pillow-heif` libraries for efficient image processing.
-
 ## Prerequisites
 
 Make sure you have Python installed on your system. You can download it from [python.org](https://www.python.org/).
