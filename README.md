@@ -24,20 +24,19 @@ cd heic-to-png-converter
 python convert_heic_2_png.py
 ```
 
-5. **Enter the path to the folder containing HEIC images** when prompted.
+4. **Enter the path to the folder containing HEIC images** when prompted.
 
 The script will convert all HEIC images in the specified folder to PNG format and save them in a subfolder named `png`.
 
 ## Script Details
 
-The script `receipts.py` performs the following steps:
+The script `convert_heic_2_png.py` performs the following steps:
 
 1. **Imports necessary libraries**.
 2. **Registers HEIF opener** to handle HEIC files.
 3. **Defines a function to convert a single HEIC file to PNG**.
 4. **Defines a function to convert all HEIC files in the specified folder**.
-5. **Uses batch processing to handle multiple files efficiently**.
-6. **Prints the conversion status for each file**.
+5. **Prints the conversion status for each file**.
 
 ## License
 
